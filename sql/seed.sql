@@ -4,12 +4,13 @@ INSERT INTO department (name)
 VALUES ('Sales'), ('Development');
 
 INSERT INTO role (title, salary, department_id)
-VALUES('Sales Rep', 60000, 1),
- ('Sales Manager', 100000, 1),
- ('Jr Developer', 60000, 2),
- ('Sr Developer', 100000, 2);
-INSERT INTO employee (first_name, last_name, role_id,manager_id)
-VALUES ('John', 'Doe', 2, NULL),
- ('Jane', 'Doe', 1, 1 ),
- ('Jack', 'Doe', 4, NULL),
- ('James', 'Doe', 3, 3);
+VALUES ('Sales Rep', 125000, 1),
+  ('Sales Manager', 150000, 1),
+  ('Jr Developer', 125000, 2),
+  ('Sr Developer', 150000, 2);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ('Kobe', 'Bryant', 2, NULL),
+  ('John', 'Stockton', 1, 1),
+  ('Jerry', 'Sloan', 4, NULL),
+  ('Pau', 'Gasol', 3, 3);
